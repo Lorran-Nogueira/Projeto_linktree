@@ -2,19 +2,21 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   color: rgb(255, 255, 255);
+   color: rgb(245, 245, 245);
    font-family: sans-serif
 }
 
 body{
-    background-color: rgb(15, 14, 14);
+    background: rgb(118, 120, 121);
+    background: linear-gradient(90deg, rgba(1, 32, 70, 0.788) 0%, rgb(0, 110, 255) 69%, rgb(0, 110, 255) 100%); 
+
 }
 
 .link-bio {
 display: flex;
 flex-direction:  column;
 align-items: center;
-width: 100%;
+width: 80%;
 margin: 40px auto; 
 gap: 20px;
 }
@@ -31,7 +33,7 @@ gap: 20px;
 }
 
 .link-bio a {
-background-color: blue;
+background-color: #0a0909;
 color: white;
 padding: 15px;
 width: 90%;
@@ -46,5 +48,5 @@ border-radius: 10px;
 
 .link-bio a:hover {
 background-color:rgb(255, 255, 255);
-color: blue;
+color: #0a0a0a;
 }
